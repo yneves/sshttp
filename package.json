@@ -1,0 +1,16 @@
+{
+  "name": "sshttp",
+  "version": "0.1.0",
+  "description": "Send commands to a persistent ssh connection.",
+  "bin": {
+    "sshttp": "./sshttp.js",
+    "sshttp-server": "./sshttp-server.js"
+  },
+  "main": "ssh.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "class-autobind": "^0.1.4",
+    "minimist": "^1.2.0"
+  }
+}
