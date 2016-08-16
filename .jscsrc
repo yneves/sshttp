@@ -1,0 +1,14 @@
+{
+  "preset": "google",
+  "disallowSpacesInAnonymousFunctionExpression": null,
+  "validateLineBreaks": "LF",
+  "validateIndentation": 2,
+  "excludeFiles": ["./client.js", "node_modules/**"],
+  "requireCamelCaseOrUpperCaseIdentifiers": {
+    "ignoreProperties": true
+  },
+  "jsDoc": {
+    "checkAnnotations": "jsdoc3",
+    "checkTypes": "capitalizedNativeCase"
+  }
+}
